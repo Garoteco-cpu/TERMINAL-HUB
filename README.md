@@ -1,16 +1,24 @@
-# React + Vite
+TerminalHub // Multi-Asset Financial Dashboard ⚡
+TerminalHub is a high-performance, brutalist-inspired financial dashboard built to track multiple asset classes, including Stocks, ETFs, Cryptocurrencies, and Private Equity.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Designed with a strict focus on responsive UI/UX and seamless data visualization, this project bridges the gap between raw technical data processing and disruptive visual design. It refuses generic layouts, opting instead for a premium, dark-mode terminal aesthetic tailored for modern analytics.
 
-Currently, two official plugins are available:
+🚀 Key Features
+Multi-Market Tracking: Seamlessly switch between different asset classes (Crypto, Global ETFs, Stocks, and Private Equity) with instantaneous data reflection.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Advanced Data Visualization: Fluid, interactive area charts built with Recharts, featuring dynamic time-frame filters (24H, 7D, 30D, 1Y) and custom SVG gradients.
 
-## React Compiler
+Mathematical Mock Engine: To bypass the aggressive rate-limiting of free public APIs (like CoinGecko) and support non-public assets (like Private Equity series), the application features a robust local data engine. It mathematically simulates realistic market volatility and price action tailored to each specific asset class.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Responsive Architecture: Built with advanced CSS Grid and Flexbox. Features a fully optimized mobile view with a swipeable navigation menu, ensuring the terminal looks flawless on any device.
 
-## Expanding the ESLint configuration
+🛠️ Tech Stack
+Core: React (Hooks, State Management)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Build Tool: Vite (Fast Module Replacement)
+
+Data Visualization: Recharts
+
+Iconography: Lucide React
+
+Styling: Raw CSS3 / CSS Variables (No external UI libraries, 100% custom styling)
